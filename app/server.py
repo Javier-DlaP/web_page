@@ -9,10 +9,15 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
-export_file_name = 'export.pkl'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1-RfSNhDaIb9lNTohliNyNcRrZ6G_yeDd'
+export_file_name = 'save2.pkl'
+#export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
+#export_file_name = 'export.pkl'
 
-classes = ['oso negro', 'oso pardo', 'oso de peluche']
+#classes = ['oso negro', 'oso pardo', 'oso de peluche']
+classes = ['Yuga_Aoyama', 'Mina_Ashido', 'Tsuyu_Asui', 'Tenya_Iida', 'Ochaco_Uraraka', 'Mashirao_Ojiro', 'Denki_Kaminari', 'Eijiro_Kirishima',
+           'Koji_Koda', 'Rikido_Sato', 'Mezo_Shoji', 'Kyoka_Jiro', 'Hanta_Sero', 'Fumikage_Tokoyami', 'Shoto_Todoroki', 'Toru_Hagakure',
+           'Katsuki_Bakugo', 'Izuku_Midoriya', 'Minoru_Mineta', 'Momo_Yaoyorozu']
 path = Path(__file__).parent
 
 app = Starlette()
